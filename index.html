@@ -7,7 +7,7 @@
   <title>Document</title>
 </head>
 <body class="bg-black text-white">
-
+<!--Header-->
  <header class=" header items-center fixed z-50">
     <div class="navigation flex flex-col items-center bg-black top-0 left-0 fixed md:flex-row md:flex">
       <div class="navigation-ui items-center w-screen bg-black p-2 flex flex-col h-fit md:h-14 md:flex-row">
@@ -23,8 +23,8 @@
               </span>
             </button>
           </div>
-          <div class="right-list items-center h-fit justify-center md:w-2/3  md:pr-6">
-            <ul class="rifht-items text-sm justify-center md:justify-end gap-12 items-center h-fit leading-normal flex font-custom">
+          <div class="right-list items-center mt-1 h-fit justify-center md:w-2/3  md:pr-6">
+            <ul class="rifht-items text-sm justify-center gap-3 md:justify-end md:gap-12 items-center h-fit leading-normal flex font-custom">
               <li class="item hover:text-orange-600  font-custom">
                 <a href="#" class="flex gap-3 items-center">
                   جست و جو
@@ -65,11 +65,10 @@
       </div>
     </div>
   </header> 
-
 <!-- Hero Section -->
-<div id="hero-section" class="mt-10 relative h-[calc(100vh-2.5rem)] flex items-center justify-center">
-  <img id="hero-image" class="absolute inset-0 w-full h-full object-cover opacity-50" />
-  <div class="relative z-10 max-w-4xl mx-auto text-center" style="margin-top: calc(50vh - 15px);">
+<div id="hero-section" class="mt-10 w-screen relative h-[calc(100vh-2rem)]  flex items-center justify-center">
+  <img id="hero-image" class="absolute inset-0 w-full h-full object-cover bg-gradient-to-b opacity-50" />
+  <div class="relative z-10 max-w-4xl mx-auto text-center mb-6 mt-40">
       <h3 id="hero-subtitle" class="font-normal text-xs leading-none md:text-3xl mb-2"></h3>
       <h1 id="hero-title" class="text-4xl md:text-6xl font-bold mb-3"></h1>
       <ul id="hero-features" class="flex items-center mb-5 gap-6 mt-6 text-sm"></ul>
@@ -77,6 +76,32 @@
       <p id="hero-description" class="text-lg mt-4"></p>
   </div>
 </div>
-  <script src="./public/js/main.js"></script>
+<!-- Cards-->
+ <div class="cards block w-screen mt-3"> 
+  <div class="titles flex justify-end w-full h-fit">
+    <ul class="content-of-parts h-full flex flex-row gap-3 p-3">
+      <li class="buttoms-in-card flex  border rounded-full items-center gap-4 mr-3">
+        <button id="serial-btn" class="serial-button block rounded-full font-light items-center hover:bg-red-300">سریال</button>
+        <button id="default-btn" class="film-button block rounded-full items-center font-light hover:bg-slate-500">فیلم</button>
+      </li>
+      <li class="title-in-card"><h3>محبوب های فیلیمو</h3></li>
+    </ul>
+  </div>
+  <div class="film-section w-screen relative mt-1 h-fit bg-black">
+    <div class="flex flex-col absolute h-fit w-screen">
+      <div id="dynamic-card" class="flex w-full h-fit justify-center transition-transform mt-6 gap-20 duration-500"></div>
+      <!-- DETAILS -->
+      <div id="movie-detail-a" class="movie-detail w-screen block h-fit mt-4">
+        <!-- <div class="flex flex-col">
+          <div id="information-cards" class="info-detail">
+
+          </div> -->
+          <div class="episodes"></div>
+        </div>
+      </div>
+    </div>  
+  </div>
+ </div>
+<script src="./public/js/main.js"></script>
 </body>
 </html>
