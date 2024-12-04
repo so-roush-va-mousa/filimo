@@ -1,0 +1,58 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "title": "کنترل همیشه دست توست!",
+      "subtitle": "با فیلمو بی‌وقفه فیلم ببین",
+      "description": "۹۵ هزار اپیزود فیلم و سریال",
+      "image": "./public/images/hero_section.jpg",
+      "ctaText": "خرید اشتراک و تماشا",
+      "ctaLink": "#",
+      "features": [
+        "می‌تونی بدون اینترنت تماشا کنی",
+        "می‌تونی یک عضو مخصوص تماشای کودک بسازی",
+        "ویژه برای کاربران جدید"
+                ]
+            }
+        ],
+        "cards": [
+          {
+            "id": "0",
+            "title": "Card 1",
+            "image": "./public/images/first.jpg",
+            "imageCover": "./public/images/backCover1.jpg"
+          },
+          {
+            "id": "1",
+            "title": "Card 2",
+            "image": "./public/images/second.jpg",
+            "imageCover": "./public/images/backCover2.jpg"
+          },
+          {
+            "id": "2",
+            "title": "Card 3",
+            "image": "./public/images/third.jpg",
+            "imageCover": "./public/images/backCover3.jpg"
+          },
+          {
+            "id":"3",
+            "title": "Card 4",
+            "image": "./public/images/fourth.jpg",
+            "imageCover": "./public/images/backCover4.jpg"
+          }
+        ],
+        "serials": [
+          {
+            "id":"4",
+            "title": "Serial Card 1",
+            "image": "./public/images/serial.jpg",
+            "imageCover": "./public/images/backCoverserial.jpg"
+          },
+          {
+            "id":"5",
+            "title": "Serial Card 2",
+            "image": "./public/images/serial2.jpg",
+            "imageCover": "./public/images/backCoverseral2.jpg"
+          }
+        ]
+}
